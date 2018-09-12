@@ -20,10 +20,7 @@ public class EventoService {
 	@Autowired
 	private EventoServiceImpl eventoServiceImpl;
 	
-	/**
-	 * CONSULTAR TODAS OS EVENTOS
-	 * @return
-	 */
+	//consultar todos os eventosc
 	@RequestMapping(value="/evento", method = RequestMethod.GET, produces=MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public @ResponseBody List<Evento> consultar(){
  
